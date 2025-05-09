@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3976b84-1e00-4bb1-9c27-5915e12f8484" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW/HW2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/HW1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lessons/Lesson2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW/HW2.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,7 +48,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Lesson2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="HW2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="OOP-54-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW/HW2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,5 +91,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
