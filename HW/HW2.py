@@ -36,11 +36,13 @@ class Archer(Heroes):
                      f"Имя - {self.name}, Здоровье - {self.hp}, "
                      f"Количество стрел - {self.arrows}, Попадания - {self.precision}")
 
+#Задание №1
 heroes = Heroes("Thor", 100)
 heroes.action()
 heroes.attack()
 
-accuracy = input('Введите "Попал", если ваш герой попал. А если нет то введите "Не попал".')
+# Задание №2
+accuracy = input('Введите "Попал", если ваш герой попал. А если нет то введите "Не попал". ')
 archer_heroes = Archer(5, accuracy, "Legolas", 100)
 
 archer_heroes.attack()
