@@ -1,19 +1,19 @@
-# #Декораторы
-#
-# def my_decorator(func):
-#
-#     def wrapper():
-#         print("Перед функцией")
-#         print("После функции")
-#         func()
-#
-#     return wrapper
-#
-# @my_decorator
-# def hello():
-#     print("Hello")
-#
-# hello()
+#Декораторы
+
+def my_decorator(func):
+
+    def wrapper():
+        print("Перед функцией")
+        print("После функции")
+        func()
+
+    return wrapper
+
+@my_decorator
+def hello():
+    print("Hello")
+
+hello()
 
 # def repeat(n):
 #
@@ -79,19 +79,19 @@
 # b2 = Person("Test2")
 # print(Person.get_count())
 
-class Person:
-    def __init__(self, first_name, last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-
-    def just_method(self):
-        return f"{self.first_name}, Just method"
-
-    @property
-    def test(self):
-        return f"{self.first_name}"
-
-
-p = Person("John", "Dru")
-
-print(p.test)
+# class Person:
+#     def __init__(self, first_name, last_name):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#
+#     def just_method(self):
+#         return f"{self.first_name}, Just method"
+#
+#     @property
+#     def test(self):
+#         return f"{self.first_name}"
+#
+#
+# p = Person("John", "Dru")
+#
+# print(p.test)
