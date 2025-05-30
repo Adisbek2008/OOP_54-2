@@ -40,8 +40,6 @@ cursor.execute("""
 connect.commit()
 
 
-# CRUD - Create - Read - Update - Delete
-
 def add_user(name: str, age: int, hobby = "None"):
 
     cursor.execute(
