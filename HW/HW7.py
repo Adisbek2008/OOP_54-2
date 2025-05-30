@@ -1,5 +1,6 @@
 import sqlite3
 
+
 # Подключение к базе данных
 connect = sqlite3.connect("users.db")
 cursor = connect.cursor()

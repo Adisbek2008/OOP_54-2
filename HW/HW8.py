@@ -3,6 +3,8 @@ import sqlite3
 connect = sqlite3.connect("users.db")
 cursor = connect.cursor()
 
+cursor.execute("DROP TABLE IF EXISTS users")
+
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS users(
@@ -93,7 +95,7 @@ def create_view_highest_grade():
         SELECT name, subject, grade
         FROM users JOIN grades ON users.user_id= grades.userid   
         WHERE grade = (SELECT MAX(grade) FROM grades)
-        
+
     ''')
 
     print("Представление создано или обновленно")
@@ -107,3 +109,17 @@ def view_highest_grade():
     users = cursor.fetchall()
 
 view_highest_grade()
+
+def create_view_high_achievers():
+    cursor.execute('''
+        CREATE VIEW IF NOT EXISTS view_high_achievers AS
+        SELECT users.name, grades.subject, grades.grade
+        FROM users JOIN grades ON users.user_id = grades.userid
+        WHERE grades.grade > 4.5
+    ''')
+    print("Представление view_high_achievers создано!")
+
+def show_view_high_achievers():
+    cursor.execute('SELECT * FROM view_high_achievers')
+    for row in cursor.fetchall():
+        print(row)
